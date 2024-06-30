@@ -1,33 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Search App </title>
-    <link rel="stylesheet" href="style.css" class="style">
-</head>
-<body>
-<div class="container">
-    
-    <h1 class="heading">Search GitHub Profile</h1>
-    <div class="formInput">
-        <table>
-            <tr>
-                <td class="col"><label for="profile-name">Enter a Profile Name:</label></td>
-                <td class="col"><input type="text" id="profile-name" placeholder="GitHub Profile Name"></td>
-            </tr>
-            </table>
-    </div>
-    <div class="div">
-        <button id="search" type="button"><strong>Search</strong></button>
-    </div>
+<!--index.html-->
+<!DOCTYPE html> 
+<html lang="en"> 
 
-    <div id="outputArea"></div>
-</div>
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta name="viewport"
+		content="width=device-width, 
+					initial-scale=1.0" /> 
+	<link rel="stylesheet" href="style.css" /> 
+	<title> 
+		GeeksforGeeks Github 
+	</title> 
+</head> 
 
+<body> 
+	<form class="inputForm" id="userInput"> 
+		<h1> 
+			GeeksforGeeks Github 
+		</h1> 
+		<input type="text"
+		id="inputBox"
+		autocomplete="off"
+		placeholder="Search a Github User" /> 
+	</form> 
+	<main id="main"></main> 
+	<script src="./script.js"></script> 
+</body> 
 
-
-
-    <script src="script.js"></script>
-</body>
 </html>
