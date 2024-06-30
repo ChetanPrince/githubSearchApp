@@ -1,2 +1,2 @@
 console.log("hello")
-const input = document.getElementById("profile-name")
+const input = document.getElementById("profile-name").value;
