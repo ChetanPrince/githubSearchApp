@@ -27,6 +27,13 @@ body{
     margin-top: 15px;
     padding: 10px;
 }
-#name-input:active{
+/* #name-input[type="text"]:focus {
     background-color: rgb(149, 212, 12);
+} */
+#name-input[type="text"]:focus{
+    box-shadow: 5px 5px 10px grey;
+    }
+#searchBox input:hover{
+    border: 1px solid red;
+    
 }
