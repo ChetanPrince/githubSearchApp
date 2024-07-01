@@ -39,11 +39,32 @@ h1{
     box-shadow: 5px 5px 10px grey;
     outline: none;
     }
+
+#searchBtn{
+    width: 25%;
+    height: 2.5rem;
+    margin-top: 25px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+}
+#searchBtn:hover, #name-input:hover{
+    background-color: rgba(127, 255, 212, 0.384);
+    
+}
+#searchBtn:active{
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}
 #outputBox{
     border: 2px solid blue;
     width: 75%;
-    height: 150px;
+    height: 45vh;
     margin-left: 12.5%;
     margin-right: 12.5%;
     margin-top: 35px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 7px grey;
 }
