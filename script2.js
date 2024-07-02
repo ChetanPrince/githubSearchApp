@@ -6,7 +6,7 @@ const input = document.getElementById("name-input");
 function searchProfile(){
     console.log("Search button is pressed")
     const insideBox =document.getElementById("insideOutputBox");
-    insideBox.innerHTML = `<p>SearchBtn is Pressed</p>`;
+    insideBox.innerHTML += `<p>SearchBtn is Pressed</p>`;
 }
 
 // step 1: user tries to enter a name or an id then clicks button to display the result
